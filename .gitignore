@@ -1,3 +1,7 @@
-/**
-!/SampleAssertions/
+/*
+/**/target
+/**/nbproject
+*.jar
+*.logs
+!SampleAssertions
 !/.gitignore
