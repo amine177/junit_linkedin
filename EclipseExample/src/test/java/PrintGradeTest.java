@@ -10,5 +10,11 @@ public class PrintGradeTest {
 		String result = pg.print(95);
 		assertEquals("You got an A!", result);
 	}
+	
+	@Test
+	public void secondTest() {
+		PrintGrade pg = new PrintGrade();
+		assertNotNull(pg.print(0));
+	}
 
 }
